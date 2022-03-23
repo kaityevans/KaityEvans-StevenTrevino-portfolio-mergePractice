@@ -1,0 +1,18 @@
+.clearfix {
+
+}
+.clearfix {
+  background: rgb(86, 105, 167);
+  border-radius: 5px;
+  height: 150px;
+  margin: 100px;
+  /* transition: transform 1s; */
+  /* width: 150px; */
+  padding-top: 25px;
+  width: 300px;
+  transition: padding-top 2s ease-in 250ms;
+}
+  .clearfix li:hover {
+    transform: scale(.95);
+    /* width: 400px; */
+  }
