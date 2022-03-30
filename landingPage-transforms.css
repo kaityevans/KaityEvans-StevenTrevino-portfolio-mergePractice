@@ -3,12 +3,13 @@
     height: 150px;
     margin: 100px;
     transition: transform 1s;
-    width: 150px;
+   
     animation-name: example;
     animation-duration: 4s;
-}
-.clearfix li:hover {    
-  transform: scale(1.2);
+    background: rgb(86, 105, 167);  
+    padding-top: 25px;
+    width: 300px;
+    transition: padding-top 2s ease-in 250ms;
 }
 
 @keyframes example {
@@ -21,3 +22,9 @@
 .clearfix li:active {
     font-size: 100px;
 }
+
+  .clearfix li:hover {
+    transform: scale(.95);
+    /* width: 400px; */
+  }
+
